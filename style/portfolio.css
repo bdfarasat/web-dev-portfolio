@@ -6,46 +6,21 @@
         "wdth" 100;
 }
 
-.developer{
+.developer {
     background-image: url(../images/developer.png), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
-/* Nav styles */
 
-.dark-2{
+/* shared styles */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.dark-2 {
     color: #474747;
 }
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px 200px 0px 0px;
-    padding-left: 236px;
-}
 
-nav ul{
-    display: flex;
-    align-items: center;
-    }
-nav ul li{
-    list-style: none;
-    /* display: flex; */
-    margin-right: 50px;    
-}
-
-nav ul li a{
-    text-decoration: none;
-}
-.nav-title{
-    font-weight: 800;
-    font-size: 42px;
-}
-.text-primary{
-    color: #FD6E0A;
-}
-
-.btn-primary{
+.btn-primary {
     background-color: #FD6E0A;
     color: #FFFFFF;
     border: none;
@@ -56,29 +31,112 @@ nav ul li a{
     font-weight: 400;
 }
 
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px 0px 0px;
+    padding-left: 236px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    /* display: flex; */
+    margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 42px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+
+
 
 /* Banner Styles */
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     padding-right: 38px;
     padding-left: 236px;
 }
 
-.banner-content{
+.banner-content {
     max-width: 580px;
 }
-.banner-greetings{
+
+.banner-greetings {
     font-size: 45px;
     font-weight: 300px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 85px;
     font-weight: 600px;
 }
 
-.banner-profile-picture{
+.banner-profile-picture {
     width: 584px;
     height: 676px;
+}
+
+/* Main Styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About Styles */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items{
+    display: flex;
+    /* justify-content: stretch; */
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+}
+
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+    margin: 0;
+    padding: 0;
+}
+.item-title{
+    margin: 0;
+    /* padding: 0; */
+    padding-top: 20px;
 }
