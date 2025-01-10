@@ -78,9 +78,6 @@ nav ul li a {
     color: #FD6E0A;
 }
 
-
-
-
 /* Banner Styles */
 
 .banner {
@@ -173,4 +170,42 @@ main section{
 .skill-description{
     font-size: 16px;
     color: #757575;
+}
+
+/* resume styles */
+.resume2{
+    margin-bottom: 113px;
+}
+.resume-container{
+    display: flex;
+    margin-bottom: 50px;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    /* margin-top: 0; */
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight:500;
+    color: #757575;
+}
+.experience-description{
+    font-size: 16px;
+    /* font-weight:500; */
+    color: #757575;
+}
+hr{
+    color: #D1D1D1;
+    width: 540px;
+}
+.cv{
+    align-items: center;
 }
