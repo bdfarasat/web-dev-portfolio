@@ -24,12 +24,13 @@
     background-color: #FD6E0A;
     color: #FFFFFF;
     border: none;
-    width: 150px;
+    width: 200px;
     height: 64px;
     border-radius: 5px;
     font-size: 20px;
     font-weight: 400;
     cursor: pointer;
+    padding: 0%;
     
 }
 
