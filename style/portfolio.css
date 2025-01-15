@@ -11,7 +11,9 @@
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
-
+*{
+    justify-content: center;
+}
 /* shared styles */
 .secondary-bg{
     background-color: #FFF8F3;
@@ -231,4 +233,34 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     margin-bottom: 24px;
     border: none;
     font-size: 16px;
+}
+/* Responsive Media Query */
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .skills-container{
+        flex-direction: column;
+    }
+    .resume-container{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        /* padding: 20px; */
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .secondary-bg{
+        flex-direction: column;
+        padding: 20px;
+    }
+    footer input[type="text"], footer input[type="email"], footer textarea{
+        padding: 20px;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    hr{
+        width: auto;
+    }
 }
